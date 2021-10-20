@@ -130,17 +130,6 @@ And add to your old models
 
 *Again - what other tables do you need? Draw your relationships to find out.*
 
-**Validations**
-
-- Customer name is required
-- Customer lat and lon must be valid latitude and longitude (-90 < lat < 90, -180 < lon < 180)
-- Order needs a customer and a restaurant
-- Order needs at least one dish
-- Order dishes must all be from the same restaurant
-- Review must have a customer and a restaurant
-- Review must have content > 10 characters
-- Review rating must exist, be one of the values [1,2,3,4,5]. See [Enums](https://guides.rubyonrails.org/active_record_querying.html#enums).
-- Review customer must have made an order from the restaurant
 
 **Queries**
 *You'll need to update your old seed data and add more to be able to test these query methods.*
