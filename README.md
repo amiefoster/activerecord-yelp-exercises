@@ -22,20 +22,15 @@ We'll be creating the following models:
 	- has many dishes
 - Dish
 	- name
+	- belongs to restaurant
 	- has many tags
+- DishTag
+	- belongs to dish
+	- bleongs to tag
 - Tag
 	- name
 	- has many dishes
 
-*Do you need any join tables? What data should they have?*
-
-**Validations**
-
-- Restaurants need a name
-- Dishes need a name and a restaurant
-- Tags need a name 3 characters or longer
-- Tag names can only be one word or two words, not more
-- Dishes can only have one of any particular tag
 
 **Seeds**
 
