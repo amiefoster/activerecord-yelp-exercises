@@ -1,0 +1,111 @@
+Resaurant.create(name: "McDonalds")
+Resaurant.create(name: "In-n-Out")
+Resaurant.create(name: "Chipotle")
+Resaurant.create(name: "Blaze")
+Resaurant.create(name: "Popeyes")
+Resaurant.create(name: "Raising Cane's")
+Resaurant.create(name: "Starbucks")
+Resaurant.create(name: "Baker's")
+Resaurant.create(name: "Spaghetti Factory")
+Resaurant.create(name: "Jersey Mikes")
+Resaurant.create(name: "Jack in the Box")
+Resaurant.create(name: "Panda Express")
+Resaurant.create(name: "Dominos")
+Resaurant.create(name: "Taco Bell")
+Resaurant.create(name: "Del Taco")
+Resaurant.create(name: "KFC")
+Resaurant.create(name: "Panera")
+Resaurant.create(name: "Subway")
+Resaurant.create(name: "Kitchen Thai Express")
+Resaurant.create(name: "Burger King")
+
+Dish.create(name: "Big Mac", restaurant_id: 1)
+Dish.create(name: "Chicken McNuggets", restaurant_id: 1)
+Dish.create(name: "French Fries", restaurant_id: 1)
+
+Dish.create(name: "Animal Style Fries", restaurant_id: 2)
+Dish.create(name: "Double Double", restaurant_id: 2)
+Dish.create(name: "Neopolitan Shake", restaurant_id: 2)
+
+Dish.create(name: "Burrito Bowl", restaurant_id: 3)
+Dish.create(name: "Burrito", restaurant_id: 3)
+Dish.create(name: "Chips n Guac", restaurant_id: 3)
+
+Dish.create(name: "Pepperoni Pizza", restaurant_id: 4)
+Dish.create(name: "Hawaiian Pizza", restaurant_id: 4)
+Dish.create(name: "Pesto Pizza", restaurant_id: 4)
+
+Dish.create(name: "Fried Chicken", restaurant_id: 5)
+Dish.create(name: "Chicken Tenders", restaurant_id: 5)
+Dish.create(name: "Fried Chicken Sandwich", restaurant_id: 5)
+
+Dish.create(name: "3 Piece Chicken Tender", restaurant_id: 6)
+Dish.create(name: "4 Piece Chicken Tender", restaurant_id: 6)
+Dish.create(name: "Crinkle Cut Fries", restaurant_id: 6)
+
+Dish.create(name: "Vanilla Latte", restaurant_id: 7)
+Dish.create(name: "Pumpkin Spice Latte", restaurant_id: 7)
+Dish.create(name: "Nitro Cold Brew", restaurant_id: 7)
+
+Dish.create(name: "Cheeseburger", restaurant_id: 8)
+Dish.create(name: "Bean and Cheese Burrito", restaurant_id: 8)
+Dish.create(name: "Breakfast Burrito", restaurant_id: 8)
+
+Dish.create(name: "Mazithra", restaurant_id: 9)
+Dish.create(name: "Managers Fave", restaurant_id: 9)
+Dish.create(name: "Spaghetti", restaurant_id: 9)
+
+Dish.create(name: "Turkey Sub", restaurant_id: 10)
+Dish.create(name: "Italian Sub", restaurant_id: 10)
+Dish.create(name: "Meatball Sub", restaurant_id: 10)
+
+Dish.create(name: "Sourdough Jack", restaurant_id: 11)
+Dish.create(name: "Taco", restaurant_id: 11)
+Dish.create(name: "French Fries", restaurant_id: 11)
+
+Dish.create(name: "Orange Chicken", restaurant_id: 12)
+Dish.create(name: "Fried Rice", restaurant_id: 12)
+Dish.create(name: "Chow Mein", restaurant_id: 12)
+
+Dish.create(name: "Pepperoni Pizza", restaurant_id: 13)
+Dish.create(name: "Hawaiian Pizza", restaurant_id: 13)
+Dish.create(name: "Meat Lovers Pizza", restaurant_id: 13)
+
+Dish.create(name: "Crunchwrap Supreme", restaurant_id: 14)
+Dish.create(name: "Doritos Locos Taco", restaurant_id: 14)
+Dish.create(name: "Nachos Bel Grande", restaurant_id: 14)
+
+Dish.create(name: "Bean and Cheese Burrito", restaurant_id: 15)
+Dish.create(name: "Ranch Chicken Roller", restaurant_id: 15)
+Dish.create(name: "Del Classic Chicken Burrito", restaurant_id: 15)
+
+Dish.create(name: "Chicken Tenders", restaurant_id: 16)
+Dish.create(name: "Fried Chicken", restaurant_id: 16)
+Dish.create(name: "Famous Bowl", restaurant_id: 16)
+
+Dish.create(name: "Turkey Sandwich", restaurant_id: 17)
+Dish.create(name: "Broccoli Cheddar Soup", restaurant_id: 17)
+Dish.create(name: "Chicken Noodle Soup", restaurant_id: 17)
+
+Dish.create(name: "Turkey Sub", restaurant_id: 18)
+Dish.create(name: "Roast Beef Sub", restaurant_id: 18)
+Dish.create(name: "Ham Sub", restaurant_id: 18)
+
+Dish.create(name: "Yellow Curry", restaurant_id: 19)
+Dish.create(name: "Pad see ew", restaurant_id: 19)
+Dish.create(name: "Mango Sticky Rice", restaurant_id: 19)
+
+Dish.create(name: "Original Chicken Sandwich", restaurant_id: 20)
+Dish.create(name: "Whopper", restaurant_id: 20)
+Dish.create(name: "Chicken Fries", restaurant_id: 20)
+
+Tag.create(name: "Crunchy")
+Tag.create(name: "Spicy")
+Tag.create(name: "Sweet")
+Tag.create(name: "Savory")
+Tag.create(name: "Crisp")
+Tag.create(name: "Delicious")
+Tag.create(name: "Yum")
+Tag.create(name: "Salty")
+Tag.create(name: "Chewy")
+Tag.create(name: "Hot")
